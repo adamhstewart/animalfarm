@@ -11,63 +11,31 @@ label: Homepage
     <div class="ui hidden divider"></div>
 
 <div class="ui link cards">
-  <div class="card">
-    <div class="ui move right reveal">
-      <div class="visible content">
-        <img src="/assets/images/nii.jpg" class="ui image">
+
+  {% for character in site.data.characters %}
+
+    <div class="card">
+      <div class="ui move right reveal">
+        <div class="visible content">
+          <img src="{{ character.rr_image }}" class="ui image">
+        </div>
+        <div class="hidden content">
+          <img src="{{ character.af_image }}" class="ui image">
+        </div>
       </div>
-      <div class="hidden content">
-        <img src="/assets/images/boi.jpg" class="ui image">
-      </div>
-    </div>
-    <div class="content">
-      <div class="header">Matt Giampietro</div>
-      <div class="meta">
-        <a>Friends</a>
-      </div>
-      <div class="description">
-        Matthew is an interior designer living in New York.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="ui move right reveal">
-      <div class="visible content">
-        <img src="/assets/images/nii.jpg" class="ui image">
-      </div>
-      <div class="hidden content">
-        <img src="/assets/images/boi.jpg" class="ui image">
+      <div class="content">
+        <div class="header">{{ character.rr_name }}</div>
+        <div class="meta">
+          <span class="date">{{ character.af_name }}</span>
+        </div>
+        <div class="description">
+          {{ character.content }}
+        </div>
       </div>
     </div>
-    <div class="content">
-      <div class="header">Molly</div>
-      <div class="meta">
-        <span class="date">Coworker</span>
-      </div>
-      <div class="description">
-        Molly is a personal assistant living in Paris.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="ui move right reveal">
-      <div class="visible content">
-        <img src="/assets/images/nii.jpg" class="ui image">
-      </div>
-      <div class="hidden content">
-        <img src="/assets/images/boi.jpg" class="ui image">
-      </div>
-    </div>
-    <div class="content">
-      <div class="header">Elyse</div>
-      <div class="meta">
-        <a>Coworker</a>
-      </div>
-      <div class="description">
-        Elyse is a copywriter working in New York.
-      </div>
-    </div>
-  </div>
+
+  {% endfor %}
+
 </div>
 
 
