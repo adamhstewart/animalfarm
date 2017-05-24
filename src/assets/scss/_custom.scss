@@ -28,18 +28,6 @@ img.ui.image {
   padding-bottom: 0.5em;
 }
 
-.ui.masthead.hero.segment {
-  .ui.huge.header{
-  font-family: 'Russo One', sans-serif;
-  font-size: 3em;
-  color: $gold;
-  .sub.header {
-    font-size: 1.5rem;
-  }
-  }
-}
-
-
 .ui.basic.vertical.segment,
 .ui.footer.segment {
   margin-top: 4rem;
@@ -58,6 +46,33 @@ img.ui.image {
 
 .ui.inverted.masthead.segment {
   background: $primary-color;
+}
+
+.ui.masthead.hero.segment {
+  background: url("/assets/images/animal-farm.jpg");
+  background-size: cover;
+  height: 90vh;
+
+  .right.menu {
+    .item {
+      padding-left: 1em;
+    background: rgba(0,0,0,.7);
+    }
+  }
+  
+  .ui.huge.header{
+    padding: 1em 0;
+    margin: 2em;
+    background: rgba(0,0,0,.7);
+    font-family: 'Russo One', sans-serif;
+    font-size: 3em;
+    color: $gold;
+
+    .sub.header {
+      margin-top: 1.5em;
+      font-size: 1.9rem;
+    }
+  }
 }
 
 .ui.inverted.footer.segment {
@@ -153,8 +168,8 @@ img.ui.image {
   -webkit-align-self: center; // just to make sure it works on older browsers
   -ms-flex-item-align: center;
   align-self: center; // can this be added with a html class? can't find in the semantic ui docs :/
-  padding-left: 0;
-  padding-right: 0;
+  //padding-left: 0;
+  //padding-right: 0;
   margin-left: 1.2rem;
   margin-right: 1.2rem;
 
