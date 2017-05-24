@@ -18,13 +18,6 @@ img.ui.image {
   padding-top: 0.5em;
   padding-bottom: 0.5em; }
 
-.ui.masthead.hero.segment .ui.huge.header {
-  font-family: 'Russo One', sans-serif;
-  font-size: 3em;
-  color: #fff6aa; }
-  .ui.masthead.hero.segment .ui.huge.header .sub.header {
-    font-size: 1.5rem; }
-
 .ui.basic.vertical.segment,
 .ui.footer.segment {
   margin-top: 4rem;
@@ -40,6 +33,24 @@ img.ui.image {
 
 .ui.inverted.masthead.segment {
   background: #b1110a; }
+
+.ui.masthead.hero.segment {
+  background: url("/assets/images/animal-farm.jpg");
+  background-size: cover;
+  height: 90vh; }
+  .ui.masthead.hero.segment .right.menu .item {
+    padding-left: 1em;
+    background: rgba(0, 0, 0, 0.7); }
+  .ui.masthead.hero.segment .ui.huge.header {
+    padding: 1em 0;
+    margin: 2em;
+    background: rgba(0, 0, 0, 0.7);
+    font-family: 'Russo One', sans-serif;
+    font-size: 3em;
+    color: #fff6aa; }
+    .ui.masthead.hero.segment .ui.huge.header .sub.header {
+      margin-top: 1.5em;
+      font-size: 1.9rem; }
 
 .ui.inverted.footer.segment {
   background: #b1110a; }
@@ -107,8 +118,6 @@ img.ui.image {
   font-weight: 900;
   -ms-flex-item-align: center;
   align-self: center;
-  padding-left: 0;
-  padding-right: 0;
   margin-left: 1.2rem;
   margin-right: 1.2rem; }
   .ui.secondary.inverted.pointing.menu .right.menu .item:last-child {
