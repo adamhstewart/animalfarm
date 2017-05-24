@@ -8,11 +8,21 @@ layout: default
     <h1 class="ui header">{{ page.rr_name }} as {{ page.af_name }}</h1>
 
     <div class="ui hidden divider"></div>
-<div class= "ui small images">
-      <img class="ui circular image" src="../assets/images/characters/{{page.rr_image}}" alt="{{ page.rr_name }}" />
-      <img class="ui circular image" src="../assets/images/characters/{{page.af_image}}" alt="{{ page.rr_name }}" />
-</div>
-      {{ content }}
+    <div class="ui basic center aligned segment">
+      <div class= "ui medium images">
+        <img class="ui circular image" src="../assets/images/characters/{{page.rr_image}}" alt="{{ page.rr_name }}" />
+        <img class="ui circular image" src="../assets/images/characters/{{page.af_image}}" alt="{{ page.rr_name }}" />
+      </div>
+    </div>
+    
+    {{ content }}
+
+    <a href="../">
+      <button class="ui left labeled icon button">
+        <i class="left arrow icon"></i>
+        Home
+      </button>
+    </a>
 
   </div>
 </div>
