@@ -9,38 +9,12 @@ label: Homepage
     <h1 class="ui header">Animal Farm and the Russian Revolution</h1>
 
     <div class="ui hidden divider"></div>
-
-<div class="ui cards">
-
-  {% for character in site.people %}
-    <div class="card">
-      <a href="{{ site.url }}{{ character.url }}">
-        <div class="ui move right reveal">
-          <div class="visible content">
-            <img src="{{ site.url }}/assets/images/characters/{{ character.rr_image }}" class="ui image" width="300" height="350">
-          </div>
-          <div class="hidden content">
-            <img src="{{ site.url }}/assets/images/characters/{{ character.af_image }}" class="ui image" width="300" height="350">
-          </div>
-        </div>
-      </a>
-      <div class="content">
-        <div class="header"><a href="{{ site.url }}{{ character.url }}">{{ character.rr_name }}</a></div>
-        <div class="meta">
-          <span class="date">{{ character.af_name }}</span>
-        </div>
-        <div class="description">
-        </div>
-      </div>
-      
-    </div>
-
-  {% endfor %}
-
-</div>
-
-
-
-   
-
+    <p>Animal Farm by George Orwell there are multiple correlations between the plot in the book and the events of the Russian revolution to World War Two. On this website you will see a display of Characters and who has portrayed them in real life indirectly. Judging by all the research done by our group we can tell that either directly or indirectly this book was influenced by current events at the time of the writing of the book.</p>
+    <a href="{{ site.url }}/players/">
+      <button class="ui right labeled icon button">
+        <i class="right arrow icon"></i>
+        The Players
+      </button>
+    </a>
+  </div>
 </div>

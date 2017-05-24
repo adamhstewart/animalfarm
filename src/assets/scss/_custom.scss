@@ -28,6 +28,18 @@ img.ui.image {
   padding-bottom: 0.5em;
 }
 
+.ui.masthead.hero.segment {
+  .ui.huge.header{
+  font-family: 'Russo One', sans-serif;
+  font-size: 3em;
+  color: $gold;
+  .sub.header {
+    font-size: 1.5rem;
+  }
+  }
+}
+
+
 .ui.basic.vertical.segment,
 .ui.footer.segment {
   margin-top: 4rem;

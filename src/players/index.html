@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="ui basic vertical segment">
+  <div class="ui text container">
+
+    <h1 class="ui header">The Players</h1>
+
+    <div class="ui hidden divider"></div>
+
+<div class="ui cards">
+
+  {% for character in site.people %}
+    <div class="card">
+      <a href="{{ site.url }}{{ character.url }}">
+        <div class="ui move right reveal">
+          <div class="visible content">
+            <img src="{{ site.url }}/assets/images/characters/{{ character.rr_image }}" class="ui image" width="300" height="350">
+          </div>
+          <div class="hidden content">
+            <img src="{{ site.url }}/assets/images/characters/{{ character.af_image }}" class="ui image" width="300" height="350">
+          </div>
+        </div>
+      </a>
+      <div class="content">
+        <div class="header"><a href="{{ site.url }}{{ character.url }}">{{ character.rr_name }}</a></div>
+        <div class="meta">
+          <span class="date">{{ character.af_name }}</span>
+        </div>
+        <div class="description">
+        </div>
+      </div>
+      
+    </div>
+
+  {% endfor %}
+
+</div>
+
+
+
+   
+
+</div>

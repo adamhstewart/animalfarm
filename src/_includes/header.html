@@ -1,3 +1,35 @@
+{% if page.url == '/' %}
+  <div class="ui inverted hero masthead vertical segment">
+    <div class="ui container">
+
+      <div class="ui inverted secondary pointing menu">
+
+        <a class="toc item">
+          <i class="sidebar icon"></i>
+        </a>
+
+        <div class="logo item">
+          <img src="{{ site.url }}/assets/images/animal_farm.jpg" alt="Animal Farm" class="logo">
+        </div>
+        
+        {% include menu.html %}
+
+      </div>
+    </div>
+
+    <div class="ui center aligned text container">
+      <h1 class="ui huge hero header">
+        All Animals are Equal.
+        <div class="sub header">But some animals are more equal than others.</div>
+      </h1>
+
+      <img class="ui fluid image" src="{{ site.url }}/assets/images/animal-farm.jpg" alt="Animal Farm">
+
+    </div>
+  </div>
+
+{% else %}
+
   <div class="ui inverted masthead vertical segment">
     <div class="ui container">
 
@@ -11,14 +43,12 @@
           <img src="{{ site.url }}/assets/images/animal_farm.jpg" alt="Anumal Farm" class="logo">
         </div>
 
-        <div class="right menu">
-          <a href="{{ site.url }}/"class="{% if page.url == '/' %}active {% endif %}item">Home</a>
-          <a href="{{ site.url }}/timeline/"class="{% if page.url == '/timeline/' %}active {% endif %}item">Timeline</a>
-          <a href="{{site.url}}/credits/"class="{% if page.url == '/credits/' %}active {% endif %}item">Credits</a>
-        </div>
+        {% include menu.html %}
 
       </div>
 
     </div>
   </div>
+  
+  {% endif %}
 
