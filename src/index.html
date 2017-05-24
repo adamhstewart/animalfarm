@@ -12,7 +12,7 @@ label: Homepage
 
 <div class="ui cards">
 
-  {% for character in site.data.characters %}
+  {% for character in site.people %}
 
     <div class="card">
       <div class="ui move right reveal">
@@ -24,12 +24,11 @@ label: Homepage
         </div>
       </div>
       <div class="content">
-        <div class="header">{{ character.rr_name }}</div>
+        <div class="header"><a href="{{ character.url }}">{{ character.rr_name }}</a></div>
         <div class="meta">
           <span class="date">{{ character.af_name }}</span>
         </div>
         <div class="description">
-          {{ character.content }}
         </div>
       </div>
     </div>

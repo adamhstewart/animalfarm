@@ -7,3 +7,14 @@ url: localhost:3000
 
 source: src
 destination: serve
+
+collections:
+  people:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: person
