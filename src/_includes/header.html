@@ -8,12 +8,12 @@
         </a>
 
         <div class="logo item">
-          <img src="../assets/images/animal_farm.jpg" alt="Anumal Farm" class="logo">
+          <img src="{{ site.url }}/assets/images/animal_farm.jpg" alt="Anumal Farm" class="logo">
         </div>
 
         <div class="right menu">
-          <a href="../"class="{% if page.url == '/' %}active {% endif %}item">Home</a>
-          <a href="../timeline/"class="{% if page.url == '/timeline/' %}active {% endif %}item">Timeline</a>
+          <a href="{{ site.url }}/"class="{% if page.url == '/' %}active {% endif %}item">Home</a>
+          <a href="{{ site.url }}/timeline/"class="{% if page.url == '/timeline/' %}active {% endif %}item">Timeline</a>
           <a href="{{site.url}}/credits/"class="{% if page.url == '/credits/' %}active {% endif %}item">Credits</a>
         </div>
 
