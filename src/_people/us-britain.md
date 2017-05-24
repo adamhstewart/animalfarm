@@ -5,4 +5,4 @@ af_name: Pilkington
 af_image: pilkington.jpg
 ---
 
-After the Russian Revolution during WWII the U.S. really relied on the Soviet Union continuously throughout the war. Then after the war, the U.S.S.R. started to cheat the rest of the Allied powers making the relationship between the super powers very rocky. The same thing happened in Animal Farm when Napoleon sold promised wood to a different buyer cheating Mr. Pilkington’s farm then whenever Napoleon tried to patch relations with him all tries were denied.
+After the Russian Revolution and during World War II, the U.S. relied on the Soviet Union. After the war, however, the U.S. and the U.K. began to isolate the U.S.S.R. as the two countries began to emerge as superpowers. The same thing happened in Animal Farm when Napoleon sold promised wood to a different buyer and damaged Animal Farm’s relationship with Mr. Pilkington’s farm. At that point, whenever Napoleon tried to patch relations with Mr. Pilkington, all tries were denied.
