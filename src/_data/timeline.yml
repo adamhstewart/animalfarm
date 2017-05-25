@@ -1,81 +1,60 @@
 - year: 1914
   events:
-    - date: July 15 (July 28 NS)
-      title: 
-      text: World War I begins
+    - date: July 15 (July 28 Gregorian)
+      title: World War I begins
+      text: The countries of Europe are plunged into war and as a result chaos. World order is challenged, much like the challenges to order preseted in Orwell's novel.
 
 - year: 1915
   events:
-    - date: September 5 (September 18 NS)
-      title: 
-      text: Czar Nicholas II assumes supreme command of the Russian Army
-
-- year: 1916
-  events: 
-    - date: December 17 (December 30) 
-      title: 
-      text: Rasputin is murdered
+    - date: September 5 (September 18 Gregorian)
+      title: Czar Nicholas II assumes command of the Russian Army
+      text: Nicholas II takes autocratic measures much like Farmer Jones frantically tries to keep his farm under control.
 
 - year: 1917
   events:
-    - date: February 23-27 (March 8-12 NS)
-      title: 
-      text: The February Revolution begins with strikes, demonstrations, and mutinies in Petrograd (also called the March Revolution if following the Gregorian calendar)
+    - date: February 23-27 (March 8-12 Gregorian)
+      title: The February Revolution
+      text:  Called March Revolution on the Gregorian calendar, it begans with strikes and demonstrations in Petrograd, represented in the novel by Old Major starting to speak about revolution.
     
-    - date: March 2 (March 15 NS)
+    - date: March 2 (March 15 Gregorian)
       title: Czar Nicholas II Abdicates
-      text: Czar Nicholas II abdicates and includes his son. The following day, Nicholas' brother, Mikhail announced his refusal to accept the throne. Provisional Government formed.
+      text: The following day, Nicholas' brother, Mikhail announced his refusal to accept the throne and the Provisional Government was formed. In Animal Farm, Farmer Jones takes measures to try to save his farm, like decorating Molly to prove that he still cares about the animals.
 
-    - date: April 3 (April 16 NS)
+    - date: October 25 (November 7 Gregorian)
       title: 
-      text: Lenin returns from exile and arrives in Petrograd via a sealed train
-
-    - date: July 3-7 (July 16-20 NS)
-      title: 
-      text: The July Days begin in Petrograd with spontaneous protests against the Provisional Government; after the Bolsheviks unsuccessfully try to direct these protests into a coup, Lenin is forced into hiding
-
-    - date: July 11 (July 24 NS)
-      title: 
-      text: Alexander Kerensky becomes Prime Minister of the Provisional Government
-
-    - date: August 22-27 (September 4-9 NS)
-      title: 
-      text: The Kornilov Affair, a failed coup by General Lavr Kornilov, commander of the Russian Army
-
-    - date: October 25 (November 7 NS)
-      title: 
-      text: The October Revolution - the Bolsheviks take over Petrograd (also called the November Revolution if following the Gregorian calendar)
-
-    - date: October 26 (November 8 NS)
-      title: 
-      text: The Winter Palace, the last holdout of the Provisional Government, is taken by the Bolsheviks; the Council of People's Commissars (abbreviated as Sovnarkom), led by Lenin, is now in control of Russia
+      text: The October Revolution - the Bolsheviks take over Petrograd (called the November Revolutionon the Gregorian calendar), In Animal Farm, this is depicted by the Battle of the Cowshed.
 
 - year: 1918
   events:
-    - date: February 1/14
-      title: 
-      text: The new Bolshevik government converts Russia from the Julian to the Gregorian calendar turning February 1 into February 14
-
-    - date: March 3
-      title: 
-      text: The Treaty of Brest-Litovsk, between Germany and Russia, is signed and takes Russia out of World War I
 
     - date: March 8
-      title: 
-      text: The Bolshevik Party changes its name to the Communist Party
-
-    - date: March 11
-      title: 
-      text: The capital of Russia is changed from St. Petersburg to Moscow
+      title: The Formation of the Communist Party
+      text: The Bolshevik Party changes its name and Communism becomes the main ideology of Russia, much the same way that Animalism is the ideology of the Farm.
 
     - date: June
-      title: 
-      text: Russian civil war begins
+      title: Russian Civil War Begins
+      text: 
 
     - date: July 17
-      title: 
-      text: Czar Nicholas II and his family are executed
+      title: Nicholas II and his Family are Executed
+      text: The novel is less violent and Farmer Jones is forced off his farm in a coup.
+      
+      
+- year: 1920
+  events:
+    - date: November
+      title: Russian Civil War Ends
+      text: 
+    
+- year: 1922
+  events: 
 
-    - date: August 30
-      title: 
-      text: An assassination attempt leaves Lenin seriously wounded
+    - date: December 30
+      title: The Union of Soviet Socialist Republics (U.S.S.R.) established
+      text: In the novel, they rename the farm, Animal Farm.
+
+- year: 1924
+  events:
+    - date: January 21
+      title: Lenin Dies
+      text: Stalin will become his successor, and Napoleon becomes the sucessor to Old Major.     

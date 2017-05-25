@@ -1,3 +1,5 @@
+
+
 // Base
 a {
   color: $primary-color;
@@ -16,7 +18,6 @@ img.ui.image {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 // Segments
 .ui.segment {
@@ -49,7 +50,7 @@ img.ui.image {
 }
 
 .ui.masthead.hero.segment {
-  background: url("/assets/images/animal-farm.jpg");
+  background: url("/animalfarm/assets/images/animal-farm.jpg");
   background-size: cover;
   height: 90vh;
 
