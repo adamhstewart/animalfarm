@@ -35,7 +35,7 @@ img.ui.image {
   background: #b1110a; }
 
 .ui.masthead.hero.segment {
-  background: url("/assets/images/animal-farm.jpg");
+  background: url("/animalfarm/assets/images/animal-farm.jpg");
   background-size: cover;
   height: 90vh; }
   .ui.masthead.hero.segment .right.menu .item {
