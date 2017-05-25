@@ -2,7 +2,7 @@
   events:
     - date: July 15 (July 28 Gregorian)
       title: World War I begins
-      text: The countries of Europe are plunged into war and as a result chaos. World order is challenged, much like the challenges to order preseted in Orwell's novel.
+      text: The countries of Europe are plunged into war and as a result, chaos. World order is challenged, much like the challenges to order presented in Orwell's novel.
 
 - year: 1915
   events:
@@ -14,15 +14,15 @@
   events:
     - date: February 23-27 (March 8-12 Gregorian)
       title: The February Revolution
-      text:  Called March Revolution on the Gregorian calendar, it begans with strikes and demonstrations in Petrograd, represented in the novel by Old Major starting to speak about revolution.
+      text:  Called March Revolution on the Gregorian calendar, it began with strikes and demonstrations in Petrograd, represented in the novel by Old Major starting to speak about revolution.
     
     - date: March 2 (March 15 Gregorian)
       title: Czar Nicholas II Abdicates
-      text: The following day, Nicholas' brother, Mikhail announced his refusal to accept the throne and the Provisional Government was formed. In Animal Farm, Farmer Jones takes measures to try to save his farm, like decorating Molly to prove that he still cares about the animals.
+      text: The following day, Nicholas' brother, Mikhail, announced his refusal to accept the throne and the Provisional Government was formed. In Animal Farm, Farmer Jones takes measures to try to save his farm, like decorating Molly to prove that he still cares about the animals.
 
     - date: October 25 (November 7 Gregorian)
-      title: 
-      text: The October Revolution - the Bolsheviks take over Petrograd (called the November Revolutionon the Gregorian calendar), In Animal Farm, this is depicted by the Battle of the Cowshed.
+      title: The October Revolution 
+      text: The Bolsheviks take over Petrograd (called the November Revolution on the Gregorian calendar), In Animal Farm, this is depicted by the Battle of Cowshed.
 
 - year: 1918
   events:
@@ -50,7 +50,7 @@
   events: 
 
     - date: December 30
-      title: The Union of Soviet Socialist Republics (U.S.S.R.) established
+      title: The Union of Soviet Socialist Republics (U.S.S.R.) is established
       text: In the novel, they rename the farm, Animal Farm.
 
 - year: 1924
