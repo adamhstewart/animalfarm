@@ -45,6 +45,8 @@ Thumbs.db
 
 node_modules
 .tmp
+.bundle
+vendor
 
 # Jekyll compiled stylesheet
 src/assets/stylesheets/style.css
